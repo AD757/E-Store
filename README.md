@@ -3,8 +3,8 @@
 Full stack e-commerce online store application. 
 
 - Test Account
-*Email: customer@test.com
-*Password: test123
+- Email: customer@test.com
+- Password: test123
 
 # Screen
 
