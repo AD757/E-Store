@@ -4,6 +4,11 @@ const CollectionPreviewContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  @media only screen and (max-width: 600px) {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  }
 `;
 
 const Title = styled.h1`

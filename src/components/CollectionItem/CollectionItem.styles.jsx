@@ -7,6 +7,18 @@ const Image = styled.div`
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
+  margin-left: -10px;
+  justify-content: space-between;
+  
+  @media only screen and (max-width: 600px) {
+  width: 90%;
+  height: 50%;
+  font-size: 16px;
+  text-align: left;
+  margin-left: -10px;
+  justify-content: space-between;
+
+  }
 `;
 const CustomButtonStyled = styled(CustomButton)`
   width: 80%;
@@ -14,6 +26,14 @@ const CustomButtonStyled = styled(CustomButton)`
   position: absolute;
   top: 255px;
   display: none;
+  @media only screen and (max-width: 600px) {
+  width: 100%;
+  position: absolute;
+  display: none;
+  padding: 2px;
+  
+  margin-bottom: 30px;
+  }
 `;
 
 const CollectionItemContainer = styled.div`
@@ -47,9 +67,17 @@ const CollectionFooter = styled.div`
 const Name = styled.span`
   width: 90%;
   margin-bottom: 15px;
+  @media only screen and (max-width: 600px) {
+  font-size: 16px;
+  }
+  
 `;
 const Price = styled.span`
   width: 10%;
+  @media only screen and (max-width: 600px) {
+  width: 100%;
+  font-size: 16px;
+  }
 `;
 
 export {

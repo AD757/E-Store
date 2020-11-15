@@ -8,5 +8,11 @@ export const HomePageContainer = styled.div`
   padding: 10px;
   margin: 10px;
 
+  @media only screen and (max-width: 600px) {
+  padding: 5px;
+  margin: auto;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
 `;
 

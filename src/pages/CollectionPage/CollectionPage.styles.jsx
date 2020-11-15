@@ -6,7 +6,7 @@ const CollectionPageContainer = styled.div`
 `;
 
 const Title = styled.h2`
-  font-size: 38px;
+  font-size: 30px;
   margin: 0 auto 30px;
 `;
 

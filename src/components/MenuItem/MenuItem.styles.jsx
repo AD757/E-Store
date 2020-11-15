@@ -19,6 +19,11 @@ const ContentContainer = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
+  
+  @media only screen and (max-width: 600px) {
+    height: 70px;
+    padding: 0 15px;
+}
 `;
 
 const MenuItemContainer = styled.div`
@@ -59,11 +64,21 @@ const Title = styled.h1`
   margin-bottom: 6px;
   font-size: 22px;
   color: #4a4a4a;
+
+  @media only screen and (max-width: 600px) {
+  font-weight: bold;
+  font-size: 16px;
+  }
 `;
 
 const Subtitle = styled.span`
   font-weight: lighter;
   font-size: 16px;
+  
+  @media only screen and (max-width: 600px) {
+  font-weight: lighter;
+  font-size: 12px;
+}
 `;
 
 export {
