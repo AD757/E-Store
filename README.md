@@ -1,6 +1,10 @@
 **AD Street Shop E-Commerce Shop**
 
-Full stack e-commerce online store application.
+Full stack e-commerce online store application. 
+
+Test Account:
+Email: customer@test.com
+Password: test123
 
 # Screen
 
