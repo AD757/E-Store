@@ -1,4 +1,4 @@
-**AD Street Shop E-Commerce Shop**
+**AD Street Shop - [E-Commerce Shop]**
 
 Full stack e-commerce online store application. 
 
@@ -30,8 +30,8 @@ Full stack e-commerce online store application.
 
 ## Credit
 
-Icons made by Freepik from www.flaticon.com
-Free images from www.unsplash.com
+- Icons made by Freepik from www.flaticon.com
+- Free images from www.unsplash.com
 
 ## Author
 
