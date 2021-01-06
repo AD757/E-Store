@@ -1,6 +1,7 @@
 import React from "react";
 import StripeCheckout from "react-stripe-checkout";
 
+
 const StripeCheckoutButton = ({ price }) => {
   const priceForStripe = price * 100;
   const publishableKey = "pk_test_WiqTudEFnk32LghYLTAsudKK00e8F65rSV";
@@ -13,10 +14,10 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label="Pay Now"
-      name="E-Commerce Shop"
+      name="AD Street Shop"
       billingAddress
       shippingAddress
-      image="https://sendeyo.com/up/d/f3eb2117da"
+      image="https://i.imgur.com/LtOlJrH.png"
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"

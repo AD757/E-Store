@@ -55,7 +55,6 @@ export const CustomButtonContainer = styled.button`
   padding: 0 35px 0 35px;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
   font-weight: bolder;
   cursor: pointer;
   display: flex;
@@ -71,7 +70,6 @@ export const CustomButtonContainer = styled.button`
   padding: 0 45px 0 45px;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
   font-weight: bold;
   
   }

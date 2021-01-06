@@ -67,16 +67,18 @@ const CollectionFooter = styled.div`
 const Name = styled.span`
   width: 90%;
   margin-bottom: 15px;
+  justify-content: space-between;
   @media only screen and (max-width: 600px) {
-  font-size: 16px;
+  font-size: 14px;
   }
   
 `;
 const Price = styled.span`
-  width: 10%;
+  width: 90%;
+  text-align: center;
+  justify-content: space-between;
   @media only screen and (max-width: 600px) {
-  width: 100%;
-  font-size: 16px;
+  font-size: 14px; 
   }
 `;
 

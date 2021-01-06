@@ -20,7 +20,7 @@ const CollectionItem = ({ item, addItem }) => {
       <Image imgSrc={image}></Image>
       <CollectionFooter>
         <Name>{name}</Name>
-        <Price>{price}</Price>
+        <Price>${price}</Price>
       </CollectionFooter>
       <CustomButtonStyled onClick={() => addItem(item)} inverted>
         ADD TO CART
