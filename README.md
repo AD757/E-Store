@@ -1,5 +1,10 @@
 **AD Street Shop - [E-Commerce Shop]**
 
+# 🏗  Update (Under Construction)
+- Refactoring to TypeScript
+- New link to the repo will be posted
+
+
 Full stack e-commerce online store application. 
 
 - Test Account

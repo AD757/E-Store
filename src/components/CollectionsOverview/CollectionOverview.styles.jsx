@@ -4,7 +4,7 @@ export const CollectionsOverviewContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -38,7 +38,7 @@ const CheckoutPage = ({ cartItems, cartItemsTotalSumm }) => (
     {cartItems.map(cartItem => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
-    <Total>TOTAL: ${cartItemsTotalSumm}</Total>
+    <Total>Total: ${cartItemsTotalSumm}</Total>
     <StripeCheckoutButtonStyled price={cartItemsTotalSumm} />
     <TestWarning>
       *Please use the following test credit card for payments*

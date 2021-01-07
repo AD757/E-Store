@@ -1,91 +1,82 @@
 import styled from "styled-components";
 import CustomButton from "../CustomButton/CustomButton";
-const Image = styled.div`
-  background-image: ${({ imgSrc }) => imgSrc};
-  width: 100%;
-  height: 95%;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 5px;
-  margin-left: -10px;
-  justify-content: space-between;
-  
-  @media only screen and (max-width: 600px) {
-  width: 90%;
-  height: 50%;
-  font-size: 16px;
-  text-align: left;
-  margin-left: -10px;
-  justify-content: space-between;
-  }
-`;
-const CustomButtonStyled = styled(CustomButton)`
-  width: 80%;
-  opacity: 0.7;
-  position: absolute;
-  top: 255px;
-  display: none;
-  @media only screen and (max-width: 600px) {
-  width: 100%;
-  position: absolute;
-  display: none;
-  padding: 2px;
-  
-  margin-bottom: 30px;
-  }
-`;
 
-const CollectionItemContainer = styled.div`
+export const CollectionItemContainer = styled.div`
   width: 22vw;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
   position: relative;
-  margin-bottom: 30px;
-
   &:hover {
-    ${Image} {
+    .image {
       opacity: 0.8;
     }
-
-    ${CustomButtonStyled} {
+    button {
       opacity: 0.85;
       display: flex;
     }
   }
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+    font-size: 12px;
+    &:hover {
+      .image {
+        opacity: unset;
+      }
+      button {
+        opacity: unset;
+      }
+    }
+  }
 `;
 
-const CollectionFooter = styled.div`
+export const AddButton = styled(CustomButton)`
+  width: 80%;
+  opacity: 0.7;
+  position: absolute;
+  top: 255px;
+  display: none;
+  @media screen and (max-width: 800px) {
+    display: block;
+    opacity: 0.9;
+    min-width: unset;
+    padding: 0 10px;
+  }
+`;
+
+export const BackgroundImage = styled.div`
+  width: 100%;
+  height: 95%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 5px;
+  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+`;
+
+export const CollectionFooterContainer = styled.div`
   width: 100%;
   height: 5%;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 16px;
 `;
-const Name = styled.span`
-  width: 90%;
+
+export const NameContainer = styled.span`
+  justify-content: center;
+  width: 70%;
   margin-bottom: 15px;
-  justify-content: space-between;
-  @media only screen and (max-width: 600px) {
-  font-size: 14px;
-  }
-  
-`;
-const Price = styled.span`
-  width: 90%;
-  text-align: center;
-  justify-content: space-between;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
+  width: 50%;
   font-size: 14px; 
   }
 `;
 
-export {
-  CollectionItemContainer,
-  Image,
-  CustomButtonStyled,
-  CollectionFooter,
-  Name,
-  Price
-};
+export const PriceContainer = styled.span`
+  width: 30%;
+  justify-content: center;
+  @media only screen and (max-width: 800px) {
+  width: 10%;
+  font-size: 14px; 
+  }
+`;

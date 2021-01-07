@@ -19,11 +19,7 @@ const ContentContainer = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
-  
-  @media only screen and (max-width: 600px) {
-    height: 70px;
-    padding: 0 15px;
-}
+
 `;
 
 const MenuItemContainer = styled.div`
@@ -57,6 +53,9 @@ const MenuItemContainer = styled.div`
   &:last-child {
     margin-left: 7.5px;
   }
+  @media screen and (max-width: 800px) {
+    height: 200px;
+  }
 `;
 
 const Title = styled.h1`
@@ -65,20 +64,12 @@ const Title = styled.h1`
   font-size: 22px;
   color: #4a4a4a;
 
-  @media only screen and (max-width: 600px) {
-  font-weight: bold;
-  font-size: 16px;
-  }
 `;
 
 const Subtitle = styled.span`
   font-weight: lighter;
   font-size: 16px;
   
-  @media only screen and (max-width: 600px) {
-  font-weight: lighter;
-  font-size: 12px;
-}
 `;
 
 export {

@@ -6,9 +6,11 @@ const CartItemContainer = styled.div`
   height: 80px;
   margin-bottom: 15px;
 `;
+
 const Image = styled.img`
   width: 30%;
 `;
+
 const ItemDetails = styled.div`
   width: 70%;
   display: flex;
