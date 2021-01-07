@@ -17,7 +17,6 @@ const Image = styled.div`
   text-align: left;
   margin-left: -10px;
   justify-content: space-between;
-
   }
 `;
 const CustomButtonStyled = styled(CustomButton)`

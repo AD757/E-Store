@@ -14,6 +14,7 @@ const CartDropdownContainer = styled.div`
   right: 40px;
   z-index: 5;
 `;
+
 const EmptyMessage = styled.span`
   font-size: 18px;
   margin: 50px auto;
@@ -27,6 +28,7 @@ const CartItemsContainer = styled.div`
 
 const CustomButtonStyled = styled(CustomButton)`
   margin-top: auto;
+  
 `;
 
 export {
