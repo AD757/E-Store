@@ -40,11 +40,4 @@ Full stack e-commerce online store application.
 
 ## Author
 
-👤 **Alladin Daher**
-
-- Linkedin: [Alladin Daher](https://www.linkedin.com/in/alladin-daher-404a92117)
-- Github: [@AD757](https://github.com/AD757)
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- Udemy E-store project "Complete react/redux framework"
