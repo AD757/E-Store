@@ -4,10 +4,6 @@ const SignUpContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 380px;
-  @media screen and (max-width: 800px) {
-    width: 50%;
-    margin: 0 auto;
-  }
 `;
 
 const Title = styled.h2`
