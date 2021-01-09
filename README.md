@@ -1,11 +1,9 @@
-**AD Street Shop - [E-Commerce Shop]**
+**AD Street Shop - [E-Commerce Shop] TypeScript version**
 
-# 🏗  Update (Under Construction)
-- Refactoring to TypeScript
-- New link to the repo will be posted
+# 🏗  TypeScript Version
+- Refactord from JS to TypeScript
 
-
-Full stack e-commerce online store application. 
+Full stack e-commerce online store application. Cleaner version and less code.
 
 - Test Account
 - Email: customer@test.com
@@ -37,7 +35,3 @@ Full stack e-commerce online store application.
 
 - Icons made by Freepik from www.flaticon.com
 - Free images from www.unsplash.com
-
-## Author
-
-- Udemy E-store project "Complete react/redux framework"
