@@ -57,13 +57,20 @@ export const CustomButtonContainer = styled.button<Props>`
   border: none;
   line-height: 50px;
   padding: 0 35px 0 35px;
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bolder;
   cursor: pointer;
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    opacity: 0.9;
+    min-width: unset;
+    padding: 1px;
+  }
   
   ${getButtonStyles}
   

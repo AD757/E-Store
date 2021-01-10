@@ -255,7 +255,7 @@ const INITIAL_STATE: DirectoryState = {
       items: [
         {
           id: 30,
-          name: 'Camo Down Vest',
+          name: 'Camo Vest',
           imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
           price: 325
         },
@@ -267,7 +267,7 @@ const INITIAL_STATE: DirectoryState = {
         },
         {
           id: 32,
-          name: 'Black & White Longsleeve',
+          name: 'B&W Longsleeve',
           imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
           price: 25
         },

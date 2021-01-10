@@ -1,18 +1,34 @@
 import styled from 'styled-components';
 
 export const CollectionItemContainer = styled.div`
-  width: 20vw;
+  width: 22vw;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
   position: relative;
-  
+  padding: 3px;
+  &:hover {
+    .image {
+      opacity: 0.8;
+    }
+    button {
+      opacity: 0.85;
+      display: flex;
+    }
+  }
   @media screen and (max-width: 800px) {
     width: 20vw;
-    padding: 3px;
+    padding: 2px;
+    &:hover {
+      .image {
+        opacity: unset;
+      }
+      button {
+        opacity: unset;
+      }
+    }
   }
-
 `;
 
 export const ImageContainer = styled.div`
@@ -36,14 +52,17 @@ export const CollectionFooterContainer = styled.div`
   justify-content: space-between;
   font-size: 14px;
   padding: 2px;
+  @media screen and (max-width: 800px) {
+  margin-bottom: 10px;
+  }
 `;
 
 export const NameContainer = styled.span`
   width: 90%;
   margin-bottom: 15px;
   @media screen and (max-width: 800px) {
-    width: 40vw;
-    padding: 4px;
+    width: 40vh;
+    padding: 2px;
     font-size: 12px;
   }
 `;
@@ -51,8 +70,8 @@ export const NameContainer = styled.span`
 export const PriceContainer = styled.span`
   width: 10%;
   @media screen and (max-width: 800px) {
-    width: 12vw;
-    padding: 4px;
+    width: 12vh;
+    padding: 2px;
     font-size: 14px;
   }
 `;
