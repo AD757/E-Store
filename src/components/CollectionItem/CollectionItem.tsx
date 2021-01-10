@@ -32,7 +32,7 @@ export const componentCollectionItem = ({data, addCartItem}: Props) => {
         <NameContainer>{name}</NameContainer>
         <PriceContainer>${price}</PriceContainer>
       </CollectionFooterContainer>
-      <CustomButton onClick={() => addCartItem(data)} inverted>Add to cart</CustomButton>
+      <CustomButton onClick={() => addCartItem(data)} inverted>Add</CustomButton>
     </CollectionItemContainer>
   );
 };
