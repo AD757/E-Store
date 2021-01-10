@@ -17,6 +17,7 @@ Full stack e-commerce online store application.
 
 ## Frontend
 
+- TypeScript
 - React
 - Redux
 - Stripe Integration
