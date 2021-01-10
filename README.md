@@ -1,9 +1,9 @@
-**AD Street Shop - [E-Commerce Shop] TypeScript version**
+**AD Street Shop - [E-Commerce Shop]**
 
-# 🏗  TypeScript Version
-- Refactord from JS to TypeScript
+# 🏗  Refactored from JS to TypeScript
+- Was originally in JavaScript but refactored/converted the whole project to TypeScript for practice purposes.
 
-Full stack e-commerce online store application. Cleaner version and less code.
+Full stack e-commerce online store application.
 
 - Test Account
 - Email: customer@test.com
@@ -17,8 +17,9 @@ Full stack e-commerce online store application. Cleaner version and less code.
 
 ## Frontend
 
-- React JS
-- React-Redux
+- React
+- Redux
+- Stripe Integration
 - Styled-Components
 - Sass
 
