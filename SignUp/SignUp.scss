@@ -1,0 +1,15 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .error {
+    color: red;
+    margin-top: -35px;
+    margin-bottom: calc(35px - 24.8px);
+  }
+}
