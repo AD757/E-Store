@@ -6,11 +6,11 @@ export const CheckoutItemContainer = styled.div`
   min-height: 100px;
   border-bottom: 1px solid darkgrey;
   padding: 15px 0;
-  font-size: 20px;
+  font-size: 18px;
   align-items: center;
   @media screen and (max-width: 800px) {
-    width: 35vh;
-    font-size: 16px;
+    width: 55vh;
+    font-size: 12px;
   }
 
 `;
@@ -18,6 +18,12 @@ export const CheckoutItemContainer = styled.div`
 export const ImageContainerContainer = styled.div`
   width: 23%;
   padding-right: 15px;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 export const ImageContainer = styled.img`
@@ -31,7 +37,7 @@ const commonFieldCss = css`
 
 export const QuantityContainer = styled.div`
   position: relative;
-  padding-left: 10px;
+  padding-left: 20px;
   
   ${commonFieldCss}
 `;
@@ -43,10 +49,12 @@ export const NumberContainer = styled.span`
 `;
 
 export const NameContainer = styled.span`
+padding-left: 20px;
   ${commonFieldCss}
 `;
 
 export const PriceContainer = styled.span`
+padding-left: 20px;
   ${commonFieldCss}
 `;
 
@@ -58,28 +66,28 @@ const commonArrowCss = css`
 `;
 
 export const UpArrowContainer = styled.span`
-  top: -23px;
-  left: 15px;
+  top: -33px;
+  left: 25px;
   transform: rotate(-90deg);
   ${commonArrowCss}
   @media screen and (max-width: 800px) {
-    top: -25px;
-    left: 16px;
+    top: -30px;
+    left: 25px;
   }
 `;
 
 export const DownArrowContainer = styled.span`
   transform: rotate(90deg);
-  left: 16px;
-  top: 23px;
+  left: 25px;
+  top: 30px;
   ${commonArrowCss}
   @media screen and (max-width: 800px) {
-    top: 15px;
-    left: 16px;
+    top: 20px;
+    left: 25px;
   }
 `;
 
 export const RemoveButtonContainer = styled.div`
-  padding-left: 12px;
+  padding-left: 30px;
   cursor: pointer;
 `;

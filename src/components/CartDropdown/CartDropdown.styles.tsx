@@ -12,6 +12,14 @@ export const CartDropdownContainer = styled.div`
   top: 90px;
   right: 40px;
   z-index: 5;
+
+  @media screen and (max-width: 991px) {
+    top: 70px;
+    right: 30px;
+  }
+  @media screen and (max-width: 767px) {
+    top: 65px;
+  }
 `;
 
 export const EmptyMessageContainer = styled.span`

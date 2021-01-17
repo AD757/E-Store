@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const CheckoutPageContainer = styled.div`
-  width: 55vh;
+  width: 90vh;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ export const CheckoutPageContainer = styled.div`
   margin: 50px auto 0;
   font-size: 18px;
   @media screen and (max-width: 800px) {
-    width: 35vh;
+    width: 55vh;
     display: flex;
     font-size: 12px;
   }
@@ -18,16 +18,15 @@ export const CheckoutPageContainer = styled.div`
 `;
 
 export const CheckoutHeaderContainer = styled.div`
-  width: 55vh;
+  width: 90vh;
   padding: 10px 0;
   display: flex;
   font-size: 18px;
   justify-content: space-between;
   border-bottom: 1px solid darkgrey;
   @media screen and (max-width: 800px) {
-    width: 35vh;
+    width: 55vh;
     display: flex;
-    padding: 10px 0;
     font-size: 12px;
   }
 `;

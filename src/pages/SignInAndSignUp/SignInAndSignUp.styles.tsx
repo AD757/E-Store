@@ -7,7 +7,7 @@ export const SignInAndSignUpContainer = styled.div`
   margin: 30px auto;
 
   @media screen and (max-width: 800px) {
-    width: unset;
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
     overflow: hidden;

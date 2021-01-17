@@ -2,12 +2,12 @@ import styled from 'styled-components';
 
 export const CollectionItemContainer = styled.div`
   width: 22vw;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   height: 350px;
   align-items: center;
   position: relative;
-  padding: 3px;
   &:hover {
     .image {
       opacity: 0.8;
@@ -17,9 +17,12 @@ export const CollectionItemContainer = styled.div`
       display: flex;
     }
   }
-  @media screen and (max-width: 800px) {
-    width: 20vw;
-    padding: 2px;
+  @media screen and (max-width: 991px) {
+    padding: 0;
+  }
+  @media screen and (max-width: 767px) {
+    width: 40vw;
+    margin-bottom: 20px;
     &:hover {
       .image {
         opacity: unset;
@@ -50,28 +53,22 @@ export const CollectionFooterContainer = styled.div`
   height: 5%;
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
-  padding: 2px;
-  @media screen and (max-width: 800px) {
-  margin-bottom: 10px;
-  }
+  font-size: 18px;
 `;
 
 export const NameContainer = styled.span`
-  width: 90%;
+  width: 85%;
+  text-align: left;
   margin-bottom: 15px;
-  @media screen and (max-width: 800px) {
-    width: 40vh;
-    padding: 2px;
-    font-size: 12px;
+  @media screen and (max-width: 991px) {
+    width: 75%;
   }
 `;
 
 export const PriceContainer = styled.span`
-  width: 10%;
-  @media screen and (max-width: 800px) {
-    width: 12vh;
-    padding: 2px;
-    font-size: 14px;
+  width: 15%;
+  text-align: right;
+  @media screen and (max-width: 991px) {
+    width: 25%;
   }
 `;
