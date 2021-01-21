@@ -21,7 +21,9 @@ export const CollectionItemContainer = styled.div`
     padding: 0;
   }
   @media screen and (max-width: 767px) {
-    width: 40vw;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    width: 30vw;
     margin-bottom: 20px;
     &:hover {
       .image {
@@ -40,6 +42,7 @@ export const ImageContainer = styled.div`
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
+  
   
   ${CollectionItemContainer}:hover {
     opacity: 0.8;
@@ -61,7 +64,7 @@ export const NameContainer = styled.span`
   text-align: left;
   margin-bottom: 15px;
   @media screen and (max-width: 991px) {
-    width: 75%;
+    width: 75%; 
   }
 `;
 

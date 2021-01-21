@@ -9,7 +9,7 @@ export const CheckoutItemContainer = styled.div`
   font-size: 18px;
   align-items: center;
   @media screen and (max-width: 800px) {
-    width: 55vh;
+    width: 45vh;
     font-size: 12px;
   }
 

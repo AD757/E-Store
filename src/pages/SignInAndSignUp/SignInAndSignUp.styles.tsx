@@ -5,13 +5,10 @@ export const SignInAndSignUpContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
-
   @media screen and (max-width: 800px) {
-    width: 100%;
     display: grid;
-    grid-template-columns: auto;
-    overflow: hidden;
-    margin: 15px auto;
-    padding-bottom: 10px;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 10px;
+    width: 100vw;
   }
 `;

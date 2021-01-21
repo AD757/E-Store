@@ -10,7 +10,7 @@ export const CheckoutPageContainer = styled.div`
   margin: 50px auto 0;
   font-size: 18px;
   @media screen and (max-width: 800px) {
-    width: 55vh;
+    width: 45vh;
     display: flex;
     font-size: 12px;
   }
@@ -25,7 +25,7 @@ export const CheckoutHeaderContainer = styled.div`
   justify-content: space-between;
   border-bottom: 1px solid darkgrey;
   @media screen and (max-width: 800px) {
-    width: 55vh;
+    width: 45vh;
     display: flex;
     font-size: 12px;
   }
@@ -34,7 +34,6 @@ export const CheckoutHeaderContainer = styled.div`
 export const HeaderBlockContainer = styled.div`
   text-transform: capitalize;
   width: 23%;
-
   &:last-child {
     width: 8%;
   }
